@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/hamburgers.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Trafalgar</title>
+</head>
+<body>
+    <div class="wrapper" id="main">
+        <div class="banner container">
+            <header class="header">
+                <a href="#" class="logo">
+                    <div class="logoT">M</div>
+                    <span style="color: white">Minitial</span>
+                </a>
+                <nav class="nav-item">
+                    <a href="#main" class="nav-link" style="color: white">Главная</a>
+                    <a href="#menu" class="nav-link" style="color: white ">Меню</a>
+                </nav>
+                <div class="hamburger-menu" onclick="menuToggle()">
+                    <button class="hamburger hamburger--collapse" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <div class="drop-menu">
+                        <li><a href="#main" class="nav-link">Главная</a></li>
+                        <li><a href="#menu" class="nav-link">Меню</a></li>
+                    </div>
+                </div>
+            </header>
+            <div class="banner-info">
+                <div class="banner-item">
+                    <h2 style="color: white">Minitial-лучший стрит фуд в городк</h2>
+                    <p style="color: white">Закажи 3 пиццы и получи в подарок колу</p>
+                    <button class="today">Меню</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <section class="checkOutBlock" id="menu">
+            <div class="checkOutBlock__info">
+                <h1>Меню</h1>
+                <div class="checkOutBlock__line"></div>
+                <div class="checkOutBlock__cards container">
+
+                    <div class="checkOutBlock__card">
+                        <div class="checkOutBlock__cardImage">
+                            <img src="./img/pizza.png" alt="">
+                        </div>
+                        <div class="checkOutBlock__item">
+                            <h2>Пепперони</h2>
+                            <p>пицца соус, сыр моцарелла, пепперони из говядины (халал)</p>
+                            <div class="checkOutBlock__button">
+                                <a href="#" class="checkOutBlock__btns">Заказать <span><i class="fas fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkOutBlock__card">
+                        <div class="checkOutBlock__cardImage">
+                            <img src="./img/piz 1.png" alt="">
+                        </div>
+                        <div class="checkOutBlock__item">
+                            <h2>Вегетарианская</h2>
+                            <p>пицца соус, сыр моцарелла, шампиньоны, томаты, сладкий перец, цукини, маслины</p>
+                            <div class="checkOutBlock__button">
+                                <a href="#" class="checkOutBlock__btns">Заказать <span><i class="fas fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkOutBlock__card">
+                        <div class="checkOutBlock__cardImage">
+                            <img src="./img/mar 1.png" alt="">
+                        </div>
+                        <div class="checkOutBlock__item">
+                            <h2>Маргарита</h2>
+                            <p>пицца соус, сыр моцарелла, пепперони из говядины (халал)</p>
+                            <div class="checkOutBlock__button">
+                                <a href="#" class="checkOutBlock__btns">Заказать <span><i class="fas fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkOutBlock__viewButton">
+                    <a href="#" class="checkOutBlock__viewBtn">View all</a>
+                </div>
+
+            </div>
+        </section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
